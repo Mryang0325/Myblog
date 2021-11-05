@@ -1,0 +1,47 @@
+footer {
+  width: 100%;
+}
+footer .footcont {
+  margin: 0 auto;
+  width: 1000px;
+  height: 120px;
+}
+footer .footcont dl {
+  display: block;
+  float: left;
+  width: 250px;
+}
+footer .footcont dl dt {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  padding: 0 0 15px;
+}
+footer .footcont dl span {
+  display: block;
+  font-size: 14px;
+  width: 100%;
+}
+footer .footcont dl span img {
+  width: 79px;
+  height: 79px;
+}
+footer .footcont dl dd {
+  width: 100%;
+  font-size: 14px;
+  display: block;
+  float: left;
+}
+footer .footcont dl dd a {
+  width: 48px;
+}
+footer .shengming {
+  width: 1200px;
+  margin: 30px auto;
+}
+footer .shengming .SMa {
+  display: block;
+  margin: 0 auto;
+  font-size: 30px;
+  text-align: center;
+}

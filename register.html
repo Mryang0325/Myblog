@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image" href="./pikaqiu.ico">
+    <title>注册-blog</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./font/font.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="./js/register.js"></script>
+    <script src="./js/bootstrap.js"></script>
+</head>
+
+<body>
+    <header id="head">
+        <div class="head_title">
+            <div class="head_left">
+                <a class="logo" href="javascript:;">
+                    <div class="logo_img">
+                        <img src="./imges/pikaqiu.ico" alt="yxxBlog">
+                    </div>
+                    <span>博客</span>
+                </a>
+                <div class="left_search">
+                    <input id="search" type="text" placeholder="输入搜索内容...">
+                    <a href="javascript:;">
+                        <i class="bi bi-search"></i>
+                    </a>
+                    <div id="show_search" class="hiddentime">
+                        <ul class="s_s_ul">
+                            <li class="bangdan">查看完整榜单
+                                <i class="bi bi-chevron-double-right"></i>
+                            </li>
+                            <li>
+                                <span>1</span>
+                                <p></p>
+                                <i class="li-wenzi" value='1'></i>
+                            </li>
+                            <li>
+                                <span>2</span>
+                                <p></p>
+                                <i class="li-wenzi"></i>
+                            </li>
+                            <li>
+                                <span>3</span>
+                                <p></p>
+                                <i class="li-wenzi" value='2'></i>
+                            </li>
+                            <li>
+                                <span>4</span>
+                                <p></p>
+                                <i class="li-wenzi"></i>
+                            </li>
+                            <li>
+                                <span>5</span>
+                                <p></p>
+                                <i class="li-wenzi" value='3'></i>
+                            </li>
+
+                            <li>
+                                <span>6</span>
+                                <p></p>
+                                <i class="li-wenzi"></i>
+                            </li>
+                            <li>
+                                <span>7</span>
+                                <p></p>
+                                <i class="li-wenzi" value='4'></i>
+                            </li>
+                            <li>
+                                <span>8</span>
+                                <p></p>
+                                <i class="li-wenzi"></i>
+                            </li>
+                            <li>
+                                <span>9</span>
+                                <p></p>
+                                <i class="li-wenzi" value='4'></i>
+                            </li>
+                            <li>
+                                <span>10</span>
+                                <p></p>
+                                <i class="li-wenzi" value='1'></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 头部左结束 -->
+            <div class="head_right">
+                <div class="right_menu">
+                    <ul class="menu_nav">
+                        <li class="nav_li">
+                            <a href="javascript:;">
+                                <i class="bi bi-house-door"></i>
+                                <span>首页</span>
+                            </a>
+                        </li>
+                        <li class="nav_li">
+                            <a target="_blank" href="">
+                                <i class="bi bi-menu-button-fill"></i>
+                                <span>笔记</span>
+                            </a>
+                        </li>
+                        <li class="nav_li themeoff">
+                            <a href="javascript:;">
+                                <i class="bi bi-back"></i>
+                                <span>主题</span>
+                            </a>
+                        </li>
+                        <li class="nav_li">
+                            <a target="_blank" href="javascipt:;">
+                                <i class="bi bi-camera-video"></i>
+                                <span>视频</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="right_login">
+                    <ul class="right_ul_login">
+                        <li class="right_login_li">
+                            <a target="_blank" href="./register.html">注册</a>
+                        </li>
+                        <span class="liboder">|</span>
+                        <li class="right_login_li">
+                            <a target="_blank" href="./login.html">登录</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 头部右结束 -->
+        </div>
+    </header>
+
+    <div class="page">
+
+        <div class="wb-logo-header">
+            <div class="wb-logo">
+            </div>
+        </div>
+
+        <div class="page-login">
+            <div class="showtext">
+                <p class="text-p"></p>
+            </div>
+            <div class="w-login">
+                <span class="l-img"></span>
+                <div class="loginbox">
+                    <div class="login-header">
+                        <a class="herder-lg w_fb">账号注册</a>
+                        <!-- <a class="herder-rg">安全登录</a> -->
+
+                    </div>
+                    <div class="input-man">
+                        <div>
+                            <span>
+                                <i class="bi-login"></i>
+                            </span>
+                            <input id="username" type="text" placeholder="邮箱/会员账号/手机号">
+                        </div>
+                        <div>
+                            <span>
+                                <i class="bi-password"></i>
+                            </span>
+                            <input id="password" type="password" placeholder="请输入6-12位密码">
+                        </div>
+                        <div>
+                            <span>
+                                <i class="bi-password"></i>
+                            </span>
+                            <input id="pwd2" type="password" placeholder="请再次输入密码">
+                        </div>
+                    </div>
+
+                    <div class="sumit-login">
+                        <button id="sumit-re">注册</button>
+                    </div>
+
+                    <div class="login-foot">
+                        <p><a href="./login.html">立即登录！</a></p>
+                    </div>
+                    <hr class="simple" />
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 底部 -->
+    <footer id="foot">
+
+        <div class="footcont">
+            <dl>
+                <dt class="foot-nav">微博精彩</dt>
+                <dd>
+                    <a href="#">热门微博</a>
+                    <a href="#">热门话题</a>
+                </dd>
+                <dd>
+                    <a href="#">微博会员</a>
+                    <a href="#">微相册</a>
+                </dd>
+                <dd>
+                    <a href="#">微游戏</a>
+                    <a href="#">微指数</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt class="foot-nav">微博精彩</dt>
+
+                <span>
+                    <img src="./imges/footer_code_v2.png" alt="">
+                    了解更多扫二维码
+                </span>
+            </dl>
+            <dl>
+                <dt class="foot-nav">微博精彩</dt>
+                <dd>
+                    <a href="#">热门微博</a>
+                    <a href="#">热门话题</a>
+                </dd>
+                <dd>
+                    <a href="#">微博会员</a>
+                    <a href="#">微相册</a>
+                </dd>
+                <dd>
+                    <a href="#">微游戏</a>
+                    <a href="#">微指数</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt class="foot-nav">微博精彩</dt>
+                <dd>
+                    <a href="#">热门微博</a>
+                    <a href="#">热门话题</a>
+                </dd>
+                <dd>
+                    <a href="#">微博会员</a>
+                    <a href="#">微相册</a>
+                </dd>
+                <dd>
+                    <a href="#">微游戏</a>
+                    <a href="#">微指数</a>
+                </dd>
+            </dl>
+        </div>
+
+        <hr/>
+        <div class="shengming">
+            <a class="SMa" href="javascript:;">本页面仅供学习使用：禁止转载!</a>
+        </div>
+        <hr/>
+    </footer>
+</body>
+
+</html>

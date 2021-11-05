@@ -1,0 +1,40 @@
+body {
+  background: url(../imges/reg_repeat_bg.png) repeat-x #bee1f5;
+}
+body .page {
+  position: relative;
+  top: 10px;
+  margin-bottom: 50px;
+}
+body .page .wb-logo-header {
+  display: block;
+  z-index: 999;
+  height: 164px;
+  margin: 0 auto;
+  padding-top: 26px;
+  background: url(../imges/bg_reg_wave.png) no-repeat center bottom;
+}
+body .page .wb-logo-header .wb-logo {
+  display: block;
+  width: 200px;
+  height: 72px;
+  margin: 0 auto;
+  background: url(../imges/logo_big.png) no-repeat;
+}
+body .page #main {
+  position: absolute;
+}
+body .page #main .box {
+  padding: 15px 0 0 15px;
+  float: left;
+}
+body .page #main .box .pic {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+}
+body .page #main .box .pic img {
+  width: 165px;
+  height: auto;
+}
